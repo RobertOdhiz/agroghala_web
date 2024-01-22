@@ -1,5 +1,7 @@
 // import React from 'react'
+import App from "../App";
 import logo from "../assets/Frame.png";
+import Application from "../assets/app.apk";
 
 function Footer() {
   return (
@@ -28,10 +30,22 @@ function Footer() {
         </div>
       </div>
       <div className="border-t-2 border-black p-4 md:flex justify-between">
-        <img src={logo} alt="agroghala" width={150} className='hidden md:flex' />
+        <img
+          src={logo}
+          alt="agroghala"
+          width={150}
+          className="hidden md:flex"
+        />
         <div className=" px-6 py-1 bg-green-500 rounded-[22px] justify-center items-center  md:inline-flex">
           <div className="text-white text-base font-bold font-['Inter']">
-            Download
+            <a
+              href={Application}
+              download="Appfile"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>Download</p>
+            </a>
           </div>
         </div>
       </div>
