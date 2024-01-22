@@ -12,7 +12,7 @@ function Hero() {
             Companions.
           </span>
         </h2>
-        <p className="text-black text-[19px] md:text-left font-light font-['Inter'] my-4 py-4">
+        <p className="text-black text-[19px] md:text-left font-['Inria Sans']  font-light my-4 py-4">
           AgroGhala is your one stop app for everything agriculture. It provides
           you with the knowledge you need to make sure you benefit as a farmer.
         </p>
@@ -21,7 +21,10 @@ function Hero() {
         </div>
       </div>
       <div className="">
-        <img src={banner} className="w-full h-full object-cover hidden md:flex" />
+        <img
+          src={banner}
+          className="w-full h-full object-cover hidden md:flex"
+        />
       </div>
     </div>
   );

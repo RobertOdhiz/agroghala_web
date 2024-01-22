@@ -1,7 +1,7 @@
 import Card from "../Semicomponents/card";
-import feat1 from "../assets/Vector (3).png";
-import feat2 from "../assets/Vector.png";
-import feat3 from "../assets/Frame (2).png";
+import feat1 from "../assets/Frame (3).png";
+import feat2 from "../assets/Vector (5).png";
+import feat3 from "../assets/Group 6.png";
 
 const data = {
   properties: [
